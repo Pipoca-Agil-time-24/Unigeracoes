@@ -422,6 +422,12 @@ footer {
   .footer-container nav {
     padding-top: 20px;
   }
+
+  /* inversão da ordem */
+  .capa-container { order: 2; }
+  .capa-img { order: 1; }
+  .card-container-reverse img { order: 1; }
+  .card-text-reverse { order: 2; }
 }
 
 @media (max-width: 480px) {
